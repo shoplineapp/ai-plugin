@@ -56,13 +56,7 @@ Open **Settings → Plugins → Create → Add marketplace**, enter `shoplineapp
 
 OpenCode does not use this marketplace format. Add the SHOPLINE remote MCP server through OpenCode's supported MCP settings and expose these two skills through its supported explicit skill path. This repository does not claim one-command OpenCode marketplace installation.
 
-### Hermes Agent
-
-```bash
-hermes plugins install shoplineapp/ai-plugin --enable
-```
-
-Restart active sessions after installation.
+Hermes is not a supported installation path for this package because its package contract has not been verified here.
 
 ## OAuth and credentials
 
@@ -76,7 +70,6 @@ Each client has its own installation. An installation in one client does not app
 - **Claude Desktop:** use **Sync** for updates and **Uninstall** in its Plugins UI.
 - **Codex:** run `codex plugin marketplace upgrade SHOPLINE`, then reinstall `shopline-plugin`; remove with `codex plugin remove shopline-plugin`.
 - **ZCode:** refresh the marketplace in **Settings → Plugins**, then update or uninstall the plugin there.
-- **Hermes:** update with `hermes plugins update shopline-plugin`; remove with `hermes plugins remove shopline-plugin`.
 
 ## Verification
 
