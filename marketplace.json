@@ -1,0 +1,13 @@
+{
+  "name": "SHOPLINE",
+  "description": "SHOPLINE Agent Skills and public MCP connection.",
+  "plugins": [
+    {
+      "name": "shopline-plugin",
+      "description": "Use SHOPLINE Admin APIs through guided skills and MCP tools.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

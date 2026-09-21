@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shopline": {
+      "type": "http",
+      "url": "https://shopline-open.shopline.io/mcp/on-demand"
+    }
+  }
+}

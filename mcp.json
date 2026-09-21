@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "shopline": {
+      "type": "streamable-http",
+      "url": "https://shopline-open.shopline.io/mcp/on-demand"
+    }
+  }
+}

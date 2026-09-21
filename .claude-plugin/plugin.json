@@ -1,0 +1,13 @@
+{
+  "name": "shopline-plugin",
+  "version": "1.0.0",
+  "description": "Use SHOPLINE Admin APIs through Agent Skills and the public SHOPLINE MCP server.",
+  "author": {
+    "name": "SHOPLINE",
+    "url": "https://github.com/shoplineapp"
+  },
+  "homepage": "https://github.com/shoplineapp/ai-plugin",
+  "repository": "https://github.com/shoplineapp/ai-plugin",
+  "license": "MIT",
+  "keywords": ["shopline", "commerce", "mcp", "agent-skills"]
+}
