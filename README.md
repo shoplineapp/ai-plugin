@@ -48,16 +48,6 @@ codex plugin marketplace add shoplineapp/ai-plugin
 
 Install `shopline-plugin` from `/plugins` or the Codex app **Plugins** sidebar.
 
-### ZCode
-
-Open **Settings → Plugins → Create → Add marketplace**, enter `shoplineapp/ai-plugin`, then install `shopline-plugin`.
-
-### OpenCode
-
-OpenCode does not use this marketplace format. Add the SHOPLINE remote MCP server through OpenCode's supported MCP settings and expose these two skills through its supported explicit skill path. This repository does not claim one-command OpenCode marketplace installation.
-
-Hermes is not a supported installation path for this package because its package contract has not been verified here.
-
 ## OAuth and credentials
 
 The on-demand MCP connection allows initialization and tool discovery without credentials. The first protected tool call starts client-managed MCP OAuth discovery. Complete the browser flow in the client. This repository stores no access token, client secret, or authorization header; credentials remain in client-managed storage.
@@ -69,7 +59,6 @@ Each client has its own installation. An installation in one client does not app
 - **Claude Code:** `claude plugin update shopline-plugin`; remove with `claude plugin uninstall shopline-plugin`.
 - **Claude Desktop:** use **Sync** for updates and **Uninstall** in its Plugins UI.
 - **Codex:** run `codex plugin marketplace upgrade SHOPLINE`, then reinstall `shopline-plugin`; remove with `codex plugin remove shopline-plugin`.
-- **ZCode:** refresh the marketplace in **Settings → Plugins**, then update or uninstall the plugin there.
 
 ## Verification
 

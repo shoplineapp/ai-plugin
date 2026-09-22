@@ -1,5 +1,5 @@
 {
-  "name": "SHOPLINE",
+  "name": "shopline",
   "description": "SHOPLINE Agent Skills and public MCP connection.",
   "plugins": [
     {
