@@ -1,6 +1,11 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "shopline",
   "description": "SHOPLINE Agent Skills and public MCP connection.",
+  "owner": {
+    "name": "SHOPLINE",
+    "url": "https://github.com/shoplineapp"
+  },
   "plugins": [
     {
       "name": "shopline-plugin",
